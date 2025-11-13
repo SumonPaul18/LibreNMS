@@ -218,7 +218,7 @@ exit
 ```bash
 # Ubuntu/Debian
 sudo apt install snmpd
-echo "rocommunity my_secure_string" | sudo tee /etc/snmp/snmpd.conf
+echo "rocommunity public" | sudo tee /etc/snmp/snmpd.conf
 sudo systemctl restart snmpd
 ```
 
